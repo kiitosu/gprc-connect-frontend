@@ -5,7 +5,7 @@ import { createClient } from "@connectrpc/connect";
 import { createConnectTransport } from "@connectrpc/connect-web";
 
 // 接続したいサービスをインポート
-import { ElizaService } from "@buf/connectrpc_eliza.bufbuild_es/connectrpc/eliza/v1/eliza_pb";
+import { ElizaService } from "./gen/connectrpc/eliza/v1/eliza_pb";
 
 // transportではどのタイプのエンドポイントを使うか定義します
 // 今回はConnect endpointを使います。
